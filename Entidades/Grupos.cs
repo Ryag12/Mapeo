@@ -17,7 +17,7 @@ namespace Entidades
 
         public Grupos()
         {
-            this.Estudiantes = new List<Entidades.Estudiantes>();
+            this.Estudiantes = new List<Estudiantes>();
         }
 
         public Grupos(int grupoId, string nombreGrupo)
@@ -26,7 +26,7 @@ namespace Entidades
 
             this.Nombre = nombreGrupo;
 
-            this.Estudiantes = new List<Entidades.Estudiantes>();
+            this.Estudiantes = new List<Estudiantes>();
         }
     }
 }

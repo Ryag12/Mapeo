@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{AD7F0F10-B743-4527-B723-E40DA7990D35}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Detalles", "Detalles", "{D40D61A4-770E-4FCD-A9EB-86F3A184F367}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A6B3F9E-A894-4A91-81C7-76A1304B55BE} = {D40D61A4-770E-4FCD-A9EB-86F3A184F367}
+		{BD9A5B04-C578-4593-AEEF-18C6A3E24A3C} = {D40D61A4-770E-4FCD-A9EB-86F3A184F367}
+		{17D9B108-28F1-47A2-A9E1-D829A59FA554} = {D40D61A4-770E-4FCD-A9EB-86F3A184F367}
+		{AD7F0F10-B743-4527-B723-E40DA7990D35} = {D40D61A4-770E-4FCD-A9EB-86F3A184F367}
 	EndGlobalSection
 EndGlobal

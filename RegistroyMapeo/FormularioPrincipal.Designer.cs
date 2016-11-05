@@ -52,7 +52,7 @@
             // metroTile2
             // 
             this.metroTile2.BackColor = System.Drawing.Color.Red;
-            this.metroTile2.CustomBackground = true;
+            //this.metroTile2.CustomBackground = true;
             this.metroTile2.Location = new System.Drawing.Point(406, 148);
             this.metroTile2.Name = "metroTile2";
             this.metroTile2.Size = new System.Drawing.Size(187, 157);
@@ -91,6 +91,7 @@
             this.registosGrupoToolStripMenuItem.Name = "registosGrupoToolStripMenuItem";
             this.registosGrupoToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
             this.registosGrupoToolStripMenuItem.Text = "Registos Grupo";
+            this.registosGrupoToolStripMenuItem.Click += new System.EventHandler(this.registosGrupoToolStripMenuItem_Click);
             // 
             // consultasToolStripMenuItem
             // 
@@ -123,7 +124,7 @@
             // metroTile4
             // 
             this.metroTile4.BackColor = System.Drawing.Color.Red;
-            this.metroTile4.CustomBackground = true;
+            //this.metroTile4.CustomBackground = true;
             this.metroTile4.Location = new System.Drawing.Point(119, 382);
             this.metroTile4.Name = "metroTile4";
             this.metroTile4.Size = new System.Drawing.Size(187, 153);

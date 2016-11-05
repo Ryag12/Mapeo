@@ -66,5 +66,27 @@ namespace BLL
             }
             return lista;
         }
+
+        public static List<Estudiantes> GetList(List<GruposEstudiante> ge)
+        {
+            var lista = new List<Estudiantes>();
+            using (var conexion = new RegistroyMapeoDb())
+            {
+                try
+                {
+                    foreach (var estudiante in ge)
+                    {
+                        lista.Add(conexion.Estudiantes.Find(estudiante.EstudianteId));
+                    }
+                    //lista = conexion.Estudiantes.Where(e => e.EstudianteId == ge)
+                }
+                catch (Exception)
+                {
+
+                    throw;
+                }
+            }
+            return lista;
+        }
     }
 }
